@@ -1,0 +1,35 @@
+@media screen and (max-width: 576px) {
+  .nav-bar,
+  hr {
+    display: none;
+  }
+  .banner-text-container {
+    align-items: center;
+    text-align: center;
+  }
+
+  .banner,
+  .featured-bike {
+    flex-direction: column;
+  }
+
+  .featured-bike-text,
+  .News-container {
+    text-align: center;
+    width: 100%;
+  }
+  .featured-bike-images,
+  .news-cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .news-card-1 {
+    margin-bottom: 20px;
+  }
+  .news-cards {
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+}
