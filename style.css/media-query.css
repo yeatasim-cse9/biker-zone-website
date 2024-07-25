@@ -19,7 +19,8 @@
     width: 100%;
   }
   .featured-bike-images,
-  .news-cards {
+  .news-cards,
+  .clients-card {
     grid-template-columns: repeat(1, 1fr);
   }
 

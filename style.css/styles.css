@@ -54,6 +54,7 @@ main {
   align-items: center;
   gap: 100px;
   flex-wrap: wrap;
+  padding: 3rem;
 }
 
 .nav-item {
@@ -133,6 +134,7 @@ main {
 #best-bike {
   color: rgb(231, 111, 81);
   font-weight: 600;
+  margin-bottom: 3rem;
 }
 
 .featured-bike-images {
@@ -209,3 +211,69 @@ main {
 }
 
 /* latest-news-ends */
+
+/* Happy-Clients-section-starts-here */
+
+.happy-clients {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#clients-heading {
+  color: #0a0826;
+}
+
+#style {
+  color: #e76f51;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.clients-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.75rem;
+  margin-top: 3.25rem;
+}
+
+.clients-card-1,
+.clients-card-2,
+.clients-card-3 {
+  padding: 2.5rem 2.1875rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #dedede;
+  background: #fff;
+}
+
+.client-name-id {
+  align-items: center;
+  gap: 1.875rem;
+  flex-direction: column;
+}
+
+.para {
+  color: #6c6c6c;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 1.875rem;
+}
+
+.clients-name {
+  color: #23a6f0;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.Banker {
+  color: #252b42;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.clients-img {
+  max-width: 9.3125rem;
+  width: 100%;
+}
+
+/* Happy-Clients-section-ends-here */
